@@ -1,0 +1,80 @@
+:root {
+  --background-color: #f5f2fe;
+  --bigger-font-size: 96px;
+  --box-color: #6c63ff;
+}
+.h1-index {
+  font-size: 48px;
+  text-align: center;
+  color: black;
+}
+h2 {
+  font-size: var(--bigger-font-size);
+  text-align: center;
+  margin: 0;
+}
+h3 {
+  text-align: center;
+  color: #4c4c4c;
+  font-size: 24px;
+}
+.buttons {
+  display: flex;
+  justify-content: center;
+}
+.contact-link {
+  border: 1px solid var(--box-color);
+  background: var(--box-color);
+  padding: 20px 15px 20px 15px;
+  margin: 20px 20px 20px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: white;
+}
+.about-link {
+  border: 1px solid var(--box-color);
+  padding: 20px 15px 20px 15px;
+  margin: 20px 20px 20px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: var(--box-color);
+}
+
+h1 {
+  text-align: center;
+  color: #4c4c4c;
+  font-size: 24px;
+}
+
+body {
+  margin: 80px 60px 80px 60px;
+  margin-top: 200px;
+}
+.contact-me {
+  font-size: 48px;
+  color: black;
+}
+/* its a link, an inline element so we have to make also display:block*/
+.backto-link {
+  text-align: center;
+  display: block;
+}
+.mail-link {
+  text-align: center;
+  display: block;
+}
+.navbar {
+  background-color: #9ca6f6;
+}
+
+.h2-size {
+  font-size: 68px;
+}
+@media (max-width: 500px) {
+  .responsive-title {
+    text-align: center;
+  }
+}
+.responsive-title {
+  font-size: 20px;
+}
