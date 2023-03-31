@@ -74,6 +74,12 @@ body {
   .responsive-title {
     text-align: center;
   }
+  .responsive-p {
+    text-align: center;
+  }
+  .responsive-h2 {
+    font-size: 50px;
+  }
 }
 .responsive-title {
   font-size: 20px;
